@@ -1,3 +1,4 @@
+//By KHUSHAL AGARWAL
 import java.util.Scanner;
 public class fibonacci_average {
     int fibonacci(int n)
