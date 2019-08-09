@@ -1,3 +1,4 @@
+//By KHUSHAL AGARWAL
 import java.util.Scanner;
 public class sum_of_n_numbers {
    public static void main(String args[])
