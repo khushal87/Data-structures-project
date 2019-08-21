@@ -37,17 +37,16 @@ public class complexNumberTest {
         complexnumber c1 = new complexnumber();
         complexnumber c2 = new complexnumber();
         c1.inputA(2.0);
-        double a1 = c1.getA();
         c2.inputA(3.0);
-        double a2 = c2.getA();
         c1.inputB(-4.0);
-        double b1 = c1.getB();
         c2.inputB(-5.0);
-        double b2=c2.getB();
         complexnumber ans=new complexnumber();
         ans.addComplexA(c1, c2);
-        System.out.println(ans.getA()+" "+ans.getB());
+        if(ans.getB()>=0)
+            System.out.println(ans.getA()+"+"+ans.getB()+"i");
+        else
+            System.out.println(ans.getA()+" "+ans.getB()+"i");
         ans.subsComplexB(c1, c2);
-        System.out.println(ans.getA()+" "+ans.getB());
+        System.out.println(ans.getA()+"+"+ans.getB()+"i");
     }
 }
