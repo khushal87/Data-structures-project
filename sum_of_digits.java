@@ -18,7 +18,7 @@ public class sum_of_digits {
         int sum=0;
         while(m>0)
         {
-            int rem=m/10;
+            int rem=m%10;
             m=m/10;
             sum+=rem;
         }
